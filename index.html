@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>outlier1804 — small tools, built and shipped</title>
+<meta name="description" content="Four free, open tools: a campaign-brief checker for clippers, a contractor estimate generator, an agent workspace kit, and a site about what the free path to an AI content pipeline actually costs.">
+<link rel="canonical" href="https://outlier1804.github.io/">
+<style>
+  :root { --ink:#16181d; --mute:#5d636e; --line:#e2e5ea; --bg:#fbfbfa; --link:#1a4fd6; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:680px; margin:0 auto; padding:72px 24px 96px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:28px; margin-bottom:8px; }
+  h1 { font-size:1.45rem; letter-spacing:-.015em; margin:0 0 10px; font-weight:650; }
+  .lede { color:var(--mute); margin:0; max-width:52ch; }
+  a { color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px; }
+  .item { border-bottom:1px solid var(--line); padding:26px 0; }
+  .item h2 { font-size:1.02rem; margin:0 0 6px; font-weight:620; letter-spacing:-.01em; }
+  .item h2 a { color:var(--ink); text-decoration:none; }
+  .item h2 a:hover { color:var(--link); text-decoration:underline; }
+  .item p { margin:0 0 10px; color:var(--mute); }
+  .links { font-size:.86rem; color:var(--mute); }
+  .links a { margin-right:14px; }
+  footer { margin-top:44px; font-size:.84rem; color:var(--mute); }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e9ebef; --mute:#9aa1ad; --line:#282c34; --bg:#101216; --link:#7ea6ff; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>outlier1804</h1>
+  <p class="lede">Small, finished tools. Each one is free, open source, and runs without an account —
+  most of them run entirely in your own browser or on your own machine.</p>
+</header>
+
+<main>
+
+  <article class="item">
+    <h2><a href="https://outlier1804.github.io/clipgate/">ClipGate — check a clip against a campaign brief before you submit it</a></h2>
+    <p>Paste a paid-clipping or UGC campaign brief and your clip's details. ClipGate turns the brief
+    into a rule list, checks what it can automatically, and tells you which rules still need your own
+    eyes. No upload, no backend — it runs in the browser tab.</p>
+    <p class="links">
+      <a href="https://outlier1804.github.io/clipgate/">Use it</a>
+      <a href="https://github.com/outlier1804/clipgate">Source</a>
+    </p>
+  </article>
+
+  <article class="item">
+    <h2><a href="https://outlier1804.github.io/quote-drafter/">Quote Drafter — job notes to a priced estimate</a></h2>
+    <p>For trades. You describe the job in plain language against your own rate card; it does every
+    number in exact decimal arithmetic — markup, call-out minimum, after-hours, tax, rounding — and
+    refuses to invent a price for a service code it doesn't know. Python 3, standard library only.</p>
+    <p class="links">
+      <a href="https://outlier1804.github.io/quote-drafter/">Overview</a>
+      <a href="https://outlier1804.github.io/quote-drafter/estimate.html">Sample estimate</a>
+      <a href="https://github.com/outlier1804/quote-drafter">Source</a>
+    </p>
+  </article>
+
+  <article class="item">
+    <h2><a href="https://outlier1804.github.io/agent-workspace-kit/">Agent Workspace Kit — the plumbing behind a self-running agent</a></h2>
+    <p>The extracted, working parts of a Claude Code agent that runs unattended: a Telegram bridge, a
+    markdown-vault memory, scheduled headless workers, subagents, and a local dashboard. It is the
+    scaffolding, not a demo — the pieces that are tedious to rebuild.</p>
+    <p class="links">
+      <a href="https://outlier1804.github.io/agent-workspace-kit/">Overview</a>
+      <a href="https://github.com/outlier1804/agent-workspace-kit">Source</a>
+    </p>
+  </article>
+
+  <article class="item">
+    <h2><a href="https://outlier1804.github.io/whatfreecosts/">What Free Costs — measured write-ups of the free path</a></h2>
+    <p>What the free or self-hosted version of an AI content pipeline actually costs you in time,
+    hardware and failure modes, measured rather than guessed. Currently covers clip-editing tools,
+    local text-to-speech, and self-hosting a scheduler on a VPS.</p>
+    <p class="links">
+      <a href="https://outlier1804.github.io/whatfreecosts/">Read it</a>
+      <a href="https://outlier1804.github.io/whatfreecosts/opus-clip-alternatives-vs-diy/">Clip tools vs DIY</a>
+      <a href="https://outlier1804.github.io/whatfreecosts/elevenlabs-alternative-local-tts/">Local TTS</a>
+      <a href="https://outlier1804.github.io/whatfreecosts/self-host-postiz-vps-tutorial/">Self-host Postiz</a>
+      <a href="https://github.com/outlier1804/whatfreecosts">Source</a>
+    </p>
+  </article>
+
+</main>
+
+<footer>
+  Everything here is on <a href="https://github.com/outlier1804">GitHub</a>.
+  <a href="/sitemap.xml">Sitemap</a>.
+</footer>
+
+</div>
+</body>
+</html>

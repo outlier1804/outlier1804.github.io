@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Crawlers only read robots.txt at the HOST ROOT. Project Pages sites live at
+# outlier1804.github.io/<repo>/, so a robots.txt inside one of those repos is
+# never read. This file is the only one on this host that is. Every sitemap for
+# every site on this host is therefore declared here.
+
+Sitemap: https://outlier1804.github.io/sitemap.xml
+Sitemap: https://outlier1804.github.io/whatfreecosts/sitemap.xml
