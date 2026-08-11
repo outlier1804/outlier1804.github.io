@@ -8,7 +8,7 @@ The **user Pages site** for the `outlier1804` GitHub account. It exists for two 
 
 ## Why the host root matters
 
-The four tools are *project* Pages sites — they live at `outlier1804.github.io/<repo>/`. A
+The five project sites are *project* Pages sites — they live at `outlier1804.github.io/<repo>/`. A
 `robots.txt` committed inside one of those repos is served at
 `outlier1804.github.io/<repo>/robots.txt`, returns HTTP 200, and is **read by nothing**: crawlers
 only ever fetch `robots.txt` from the host root. Before this repo existed,
@@ -24,7 +24,7 @@ site on the host at once.
 | --- | --- |
 | `index.html` | The hub page. Plain static HTML, no build step, no dependencies. |
 | `robots.txt` | Host-root robots. Declares the sitemaps for **all** sites on this host. |
-| `sitemap.xml` | Host-root sitemap. A sitemap may list any URL on the same host, so this covers all four project sites. |
+| `sitemap.xml` | Host-root sitemap. A sitemap may list any URL on the same host, so this covers all five project sites. |
 | `93b394e7519e402e9b016af81ceeb944.txt` | IndexNow key file (Bing / Yandex / Seznam). Do not rename or delete — the key inside must match the filename. |
 
 ## Maintenance
